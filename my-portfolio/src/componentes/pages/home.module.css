@@ -1,0 +1,18 @@
+.home {
+    display: flex;
+    padding: 2em;
+}
+
+.home h1 {
+    font-size: 25px;
+    margin-left: 2em;
+}
+.home p {
+    padding: 0;
+    margin-left: 2em;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}

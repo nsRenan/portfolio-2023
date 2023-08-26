@@ -6,23 +6,28 @@
 .footer {
     color: #FFF;
     padding:  3em;
-    text-align: center;
+   
 }
 .social_list {
     display: flex;
     justify-content: center;
     list-style: none;
+    padding-left: 0;
 }
 .social_list li {
-    margin:  0 1em;
+    margin: 0  1em;
+
 }
 .social_list svg{
     font-size: 1.5em;
     cursor: pointer;
+    
 }
 .copy_right {
     margin-top:  2em;
     color: #a7a7a7;
+    justify-content: center;
+    display: flex
 }
 .copy_right span {
     font-weight: bold;

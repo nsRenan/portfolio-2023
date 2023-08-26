@@ -7,10 +7,11 @@ import Navbar from './componentes/layout/Navbar';
 import Footer from './componentes/layout/Footer';
 import Principal from './componentes/pages/Principal';
 import About from './componentes/pages/About'
+import Styles from './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router >
       <Navbar/>
       <Routes>
     <Route  path='/' element={<Principal />}></Route>

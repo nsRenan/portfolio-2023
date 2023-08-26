@@ -1,4 +1,5 @@
-import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
+import {SiGmail} from 'react-icons/si'
 import styles from './Footer.module.css'
 
 function Footer (){
@@ -6,19 +7,18 @@ function Footer (){
         <footer class={styles.footer}>
             <ul className={styles.social_list}>
                 <li>
-                    <a href={'jonasfranco@gmail.com'}>jonasfranco@gmail.com</a>
-                </li>
-                <li>
-                    <FaFacebook/>
-                </li>
-                <li>
-                    <FaInstagram/>
+                    <SiGmail/>
                 </li>
                 <li>
                     <FaLinkedin/>
                 </li>
+                <li>
+                    <FaGithub/>
+                </li>
             </ul>
-            <p className={styles.copy_right}><span>Renan e Jonas</span> &copy; 2023</p>
+            <div className={styles.copy_right}>
+            <p ><span>Renan e Jonas</span> &copy; 2023</p>
+            </div>
         </footer>
     )
 

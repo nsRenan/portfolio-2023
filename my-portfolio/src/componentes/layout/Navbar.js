@@ -15,6 +15,9 @@ function Navbar(){
                     <Link to='/sobre'>Sobre Mim</Link>
                     </li>
                     <li className={styles.item}>
+                    <Link to='/projetos'>Meus Conhecimentos</Link>
+                    </li>
+                    <li className={styles.item}>
                     <Link to='/projetos'>Meus Projetos</Link>
                     </li>
                     <li className={styles.item}>

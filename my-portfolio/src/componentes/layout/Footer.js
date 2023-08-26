@@ -6,6 +6,9 @@ function Footer (){
         <footer class={styles.footer}>
             <ul className={styles.social_list}>
                 <li>
+                    <a href={'jonasfranco@gmail.com'}>jonasfranco@gmail.com</a>
+                </li>
+                <li>
                     <FaFacebook/>
                 </li>
                 <li>

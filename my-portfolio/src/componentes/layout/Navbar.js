@@ -12,13 +12,16 @@ function Navbar(){
                 </Link>   
                 <ul className={styles.list}>
                     <li className={styles.item}>
+                    <Link to='/sobre'>Sobre Mim</Link>
+                    </li>
+                    <li className={styles.item}>
                     <Link to='/projetos'>Meus Projetos</Link>
                     </li>
                     <li className={styles.item}>
-                    <Link to='/redes'>Minhas Redes</Link>
+                    <Link to='/certificados'>Meus Certificados/Experiências</Link>
                     </li>
                     <li className={styles.item}>
-                    <Link to='/certificados'>Meus Certificados/Experiências</Link>
+                    <Link to='/redes'>Minhas Redes</Link>
                     </li>
                 </ul>
             </Container>

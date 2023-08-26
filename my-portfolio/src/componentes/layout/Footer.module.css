@@ -1,5 +1,10 @@
+:root{
+    --hoverCor: #adff2f;
+    --textColor: #51ff99
+}
+
 .footer {
-    background-color: #222;
+    background-color: black;
     color: #FFF;
     padding:  3em;
     text-align: center;
@@ -12,17 +17,15 @@
 .social_list li {
     margin:  0 1em;
 }
-.social_list li:hover{
-    color: #ffbb33 ;
-}
 .social_list svg{
     font-size: 1.5em;
     cursor: pointer;
 }
 .copy_right {
     margin-top:  2em;
+    color: #a7a7a7;
 }
 .copy_right span {
     font-weight: bold;
-    color: #ffbb33;
+    
 }

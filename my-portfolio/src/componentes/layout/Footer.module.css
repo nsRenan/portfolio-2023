@@ -4,7 +4,6 @@
 }
 
 .footer {
-    background-color: black;
     color: #FFF;
     padding:  3em;
     text-align: center;
@@ -27,5 +26,4 @@
 }
 .copy_right span {
     font-weight: bold;
-    
 }

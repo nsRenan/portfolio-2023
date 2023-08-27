@@ -1,8 +1,28 @@
 :root {
-    --textColor: #51ff99;
-    --hoverColor: #8ddfa6;
- }
-.conhecimentos{
-    background-color: black;
-    color: var(--textColor);
+  --textColor: #51ff99;
+  --hoverColor: #8ddfa6;
+}
+.conhecimentos {
+  color: #cccccc;
+  display: flex;
+  justify-content: center;
+}
+
+.images {
+   color: #cccccc;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 5% 15% 15% 15%;
+   margin: 0 3% 0 3%;
+   
+   
+}
+
+.images svg, img {
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  margin:0 3% 3% 0;
+  
 }

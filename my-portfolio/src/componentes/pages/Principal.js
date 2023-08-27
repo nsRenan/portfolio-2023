@@ -6,8 +6,8 @@ function Principal() {
     return (
       <div>
         <Home />
-        <Projetos />
         <Conhecimentos />
+        <Projetos />
       </div>
     );
   };

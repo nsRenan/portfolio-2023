@@ -1,8 +1,9 @@
 :root {
-    --textColor: #51ff99;
-    --hoverColor: #8ddfa6;
- }
-.projetos{
-    background-color: black;
-    color: var(--textColor);
+  --textColor: #51ff99;
+  --hoverColor: #8ddfa6;
+}
+.projetos {
+  color: #cccccc;
+  display: flex;
+  justify-content: center;
 }
